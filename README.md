@@ -19,7 +19,7 @@ accelerate launch --mixed_precision=bf16 src/train_aerofix.py \
   --lambda_gram 1.0 \
   --gram_loss_warmup_steps 6000 \
   --report_to "tensorboard" \
-  --tracker_project_name "difix" \
+  --tracker_project_name "aerofix" \
   --tracker_run_name "train" \
   --timestep 199 \
   --mv_unet \
